@@ -1,0 +1,10 @@
+config: !!python/object:model.Config
+  batch_size: 128
+  d_model: 256
+  depth: 1
+  dropout: 0.1
+  max_epochs: 20
+  max_seq_len: 30
+  n_classes: 4
+  n_heads: 4
+  vocab_size: 8100
