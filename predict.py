@@ -20,5 +20,3 @@ class Predictor:
         max_prob, label_id = torch.max(outputs, dim=-1)
         label = self.id2label[label_id.item()]
         return label, max_prob.item()
-
-predictor = Predictor("lightning_logs/version_0/checkpoints/epoch=19-step=1680.ckpt", "vocab.pth")
