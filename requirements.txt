@@ -1,5 +1,7 @@
 fastapi==0.75.1
 uvicorn==0.17.6
 pandas==1.4.1
-torch==1.11.0
 pytorch-lightning==1.6.1
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.1+cpu
+torchtext==0.11.1
