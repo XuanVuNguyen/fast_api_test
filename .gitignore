@@ -5,5 +5,5 @@ __pycache__/*
 
 #binary files
 **/events.out.tfevents*
-**/*.ckpt
+# **/*.ckpt
 vocab.pth
